@@ -102,3 +102,13 @@ hr{
 .ow {
     background-color: var(--dark-color);
 }
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+   
+}
+
+.footer .link {
+    color: white;
+}
