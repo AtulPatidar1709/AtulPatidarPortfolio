@@ -77,7 +77,7 @@ hr{
 }
 
 .hero .hero-img{
-    max: width 350px;
+    border-image-width: 350px;
     display: block;
     margin: auto;
 }
@@ -85,6 +85,7 @@ hr{
 .hero .hero-heading {
     font-size: 2rem;
     color: var(--dark-color);
+    text-align: center;
 }
 
 .hero .heading-inverted {
@@ -93,6 +94,10 @@ hr{
 
 .section{
     padding: 2rem;
+}
+
+.section .heading-inverted {
+    color: var(--primary-color);
 }
 
 .section h1 {
@@ -122,4 +127,9 @@ hr{
 
 .footer .ul {
     padding-inline-start: 0rem;
+}
+
+.padd {
+    margin-top: 3rem;
+    text-align: center;
 }
