@@ -5,7 +5,7 @@ body {
 }
 :root {
     --primary-color:#f43f5e ;
-    --dark-color : #737373;
+    --dark-color : lightgrey;
 
 }
 
@@ -81,7 +81,7 @@ hr{
 }
 
 .hero .hero-img{
-    border-image-width: 350px;
+    max-width: 90%;
     display: block;
     margin: auto;
 }
@@ -106,6 +106,7 @@ hr{
 
 .section h1 {
     text-align: center;
+    -webkit-text-stroke: black  ;
 }
 
 .ow {
