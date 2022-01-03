@@ -78,6 +78,7 @@ hr{
 }
 .hero {
     padding: 2rem;
+    max-width: 80%;
 }
 
 .hero .hero-img{
