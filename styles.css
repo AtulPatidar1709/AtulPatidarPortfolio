@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital@0;1&family=Varela&family=Varela+Round&display=swap");
+:root {
+  
+
+  --yellow: #d2bc4b;
+  --white: #ffffff;
+  --black: #313d44;
+  --darkGrey: #c9c149;
+}
+
+* {
+  margin:0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
 
 body {
    font-family: "Montserrat", sans-serif;
@@ -66,6 +82,7 @@ hr {
 .navigation .nav-pills {
    color: white;
    text-align: center;
+   display: block;
 }
 
 .navigation .link {
@@ -134,10 +151,11 @@ hr {
 }
 
 .footer .ul {
-   padding-inline-start: 0rem;
+   padding-inline-start: 1rem;
 }
+
 
 .padd {
    margin-top: 3rem;
-   text-align: center;
+   text-align : center;
 }
