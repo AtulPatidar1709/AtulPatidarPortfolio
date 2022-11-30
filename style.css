@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+body{
+    font-family: 'Noto Serif', serif;
+    margin: 0px;
+}
+:root{
+    --primary-color: #6B7280;
+    --secondary-color:#E5E7EB;
+}
+hr{
+    margin:2rem 0rem
+}
+/** containers **/
+.container{
+    padding:1rem 2rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+/** links button**/
+.button{
+    border-radius: 0.5rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0rem;
+}
+.primary-link{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);  
+}
+.secondary-link{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+/** lists **/
+.list-non-bullet{
+    list-style: none;
+}
+.list-inline{
+    display: inline;
+    margin-right: 1rem;
+}
+
+/** nav bar**/
+.list-nav{
+    text-align: right;
+}
+.item-nav{
+    text-decoration: none;
+    color: white;
+}
+.navigation{
+    background-color: #5e7ebf;
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+.font-bold, .active{
+    font-weight: 600;
+}
+
+/** header**/
+.hero{
+    padding: 2rem;
+}
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    padding: 1rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+.color-invert-heading{
+    color:#1D4ED8;
+}
+
+/** Sections **/
+.section  h1{
+    text-align: center;
+}
+.section{
+    padding: 2rem;
+}
+.off-white-sec{
+    background-color: var(--secondary-color);
+}
+
+/** footer **/
+.footer{
+    background-color: #3353b9;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white ;
+    border-top-right-radius: 1rem;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+/**icons**/
+.icons{
+    margin-right: 1rem;
+}
+/** bolgs page**/
+.section-blogs{
+    padding: 2rem;
+}
+.button-blogs{
+    display: inline-block;
+}
+.image-blogs{
+    max-width: 350px;
+}
+.fonts-blog{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;   
+}
+.icons-footer{
+    margin-right: 0.5rem;
+}
